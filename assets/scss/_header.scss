@@ -1,3 +1,48 @@
 header{
-
+  background-color: rgba(0,0,0,0.5);
+  .logotipo{
+    width: 20vw;
+    @media (max-width: 991px) {
+      width: 45vw;
+    }
+  }
+  .redes{
+    ul{
+      li{
+        i{
+          cursor: pointer;
+          width: 3vw;
+          line-height: 3vw;
+          @media (max-width: 1199px) and (min-width: 992px){
+            width: 4vw;
+            line-height: 4vw;
+          }
+        }
+        .fa-facebook-square{
+          background-color:  $bg-dodgerblue;
+        }
+        .fa-instagram{
+          background-color: $bg-rosybrown;
+        }
+        .fa-twitter{
+          background-color: $bg-deepskyblue;
+        }
+        .fa-youtube{
+          background-color: $bg-tomato;
+        }
+        .fa-snapchat-ghost{
+          background-color: $bg-coral;
+        }
+      }
+    }
+  }
+  .fa-search{
+    font-size: calc(1vw + 7px);
+    @media (max-width: 991px) {
+      display: none;
+    }
+  }
+  .fa-bars{
+    font-size: calc(1vw + 25px);
+  }
 }
