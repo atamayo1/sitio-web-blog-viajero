@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAIA,KAAM,CACJ,UAAU,CAAE,IAAI,CAGlB,yCAA4C,CAC1C,UAAU,CAAE,IAAI,CAChB,eAAe,CAAE,IAAI",
+"sources": ["../scss/_variables.scss"],
 "names": [],
 "file": "maindev.css"
 }

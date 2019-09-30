@@ -1,0 +1,12 @@
+
+$fuente-principal: 'Open Sans', sans-serif;
+$fuente-secundaria: 'Chewy', cursive;
+
+ul, ol{
+  list-style: none;
+}
+
+a:visited, a:link, a:focus, a:hover a:active{
+  list-style: none;
+  text-decoration: none;
+}
