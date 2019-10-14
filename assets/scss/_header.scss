@@ -2,7 +2,16 @@ header{
   background-color: rgba(0,0,0,0.5);
   .logotipo{
     width: 20vw;
-    @media (max-width: 991px) {
+    @media (max-width: 1199px) and (min-width: 992px){
+      width: 25vw;
+    }
+    @media (max-width: 991px) and (min-width: 768px){
+      width: 30vw;
+    }
+    @media (max-width: 767px) and (min-width: 576px){
+      width: 35vw;
+    }
+    @media (max-width: 575px) {
       width: 45vw;
     }
   }
@@ -44,5 +53,11 @@ header{
   }
   .fa-bars{
     font-size: calc(1vw + 25px);
+    @media (max-width: 991px) and (min-width: 768px){
+      line-height: 0;
+    }
+    @media (max-width: 767px) and (min-width: 576px){
+      line-height: 7vw;
+    }
   }
 }
