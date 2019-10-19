@@ -1,18 +1,18 @@
 header{
   background-color: rgba(0,0,0,0.5);
   .logotipo{
-    width: 20vw;
+    width: 45%;
     @media (max-width: 1199px) and (min-width: 992px){
-      width: 25vw;
+      width: 45%;
     }
     @media (max-width: 991px) and (min-width: 768px){
-      width: 30vw;
+      width: 55%;
     }
     @media (max-width: 767px) and (min-width: 576px){
-      width: 35vw;
+      width: 65%;
     }
     @media (max-width: 575px) {
-      width: 45vw;
+      width: 100%;
     }
   }
   .redes{
@@ -20,8 +20,8 @@ header{
       li{
         i{
           cursor: pointer;
-          width: 3vw;
-          line-height: 3vw;
+          width: 35px;
+          line-height: 35px;
           @media (max-width: 1199px) and (min-width: 992px){
             width: 4vw;
             line-height: 4vw;
@@ -52,12 +52,22 @@ header{
     }
   }
   .fa-bars{
-    font-size: calc(1vw + 25px);
+    font-size: calc(1vw + 35px);
+    line-height: 2vw;
+    @media (max-width: 1440px) and (min-width: 1200px){
+      line-height: 3vw;
+    }
+    @media (max-width: 1199px) and (min-width: 992px){
+      line-height: 4vw;
+    }
     @media (max-width: 991px) and (min-width: 768px){
-      line-height: 0;
+      line-height: 5vw;
     }
     @media (max-width: 767px) and (min-width: 576px){
-      line-height: 7vw;
+      line-height: 6vw;
+    }
+    @media (max-width: 575px) {
+      line-height: 10vw;
     }
   }
 }

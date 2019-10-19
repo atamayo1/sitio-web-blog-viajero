@@ -26,16 +26,16 @@
 <body>
 
     <header class="container-fluid">
-        <div class="container">
+        <div class="container p-0">
             <div class="row">
                 <!--Logo-->
-                <div class="col-8 pt-2">
+                <div class="col-10 col-sm-11 col-md-8 col-lg-7 pt-1 pt-lg-2 p-xl-0">
                     <a href="index.php">
                         <img class="logotipo img-fluid" src="assets/img/logotipo-negativo.png" alt="logo de juanito travel">
                     </a>
                 </div>
                 <!--Redes Sociales-->
-                <div class="col-2 redes d-none d-lg-block">
+                <div class="d-none d-md-block col-md-2 col-lg-3 redes">
                     <ul class="d-flex justify-content-end pt-2 mt-1">
                         <li>
                             <a href="#" target="_blank">
@@ -65,11 +65,13 @@
                     </ul>
                 </div>
                 <!--Buscador y Menú-->
-                <div class="col-4 col-md-2 col-lg-2 col-xl-2 d-flex justify-content-end pt-2 pt-md-4 pt-lg-2 pt-xl-3">
-                    <div class="pr-5 pr-lg-5 mt-0 mt-md-1 mt-lg-2 mt-xl-2">
+                <div class="col-2 col-sm-1 col-md-2 col-lg-2 d-flex justify-content-end pt-2 mt-1">
+                    <!--Buscador-->
+                    <div class="d-none d-md-block pr-4 pr-lg-5 mt-1">
                         <i class="fas fa-search load text-white text-center"></i>
                     </div>
-                    <div class="pr-2 pr-lg-3">
+                    <!--Menú-->
+                    <div class="mt-0 mt-sm-1 mt-md-0 pr-0 pr-sm-2 pr-lg-3">
                         <i class="fas fa-bars load text-white text-center"></i>
                     </div>
                 </div>
@@ -79,7 +81,7 @@
 
     <!-- Buscador para Móvil -->
     <div class="container d-block d-md-none py-3">
-        <div class="input-group mb-3">
+        <div class="input-group input-group-sm mb-3">
             <input type="text" class="form-control" placeholder="Buscar">
             <div class="input-group-append">
                 <span class="input-group-text"><i class="fas fa-search"></i></span>
