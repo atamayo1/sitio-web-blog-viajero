@@ -1,5 +1,5 @@
-
 <!--Banner-->
+<div class="bannerEstatico"></div>
 <div class="container-fluid p-0" id="banner">
     <section class="jd-slider fade-slider">
         <div class="slide-inner">

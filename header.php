@@ -41,11 +41,11 @@
             <div class="col-2 col-sm-1 col-md-2 col-lg-2 d-flex justify-content-end pt-2 mt-1">
                 <!--Buscador-->
                 <div class="d-none d-md-block pr-4 pr-lg-5 mt-1">
-                    <i class="fas fa-search load text-white text-center"></i>
+                    <i class="fas fa-search load text-center"></i>
                 </div>
                 <!--Menú-->
                 <div class="mt-0 mt-sm-1 mt-md-0 pr-0 pr-sm-2 pr-lg-3">
-                    <i class="fas fa-bars load text-white text-center"></i>
+                    <i class="fas fa-bars load text-center"></i>
                 </div>
             </div>
         </div>
@@ -54,3 +54,4 @@
 
 <?php include 'banner.php';?>
 <?php include 'search.php';?>
+<?php include 'menu.php';?>

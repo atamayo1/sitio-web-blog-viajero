@@ -51,18 +51,21 @@ header{
   }
   .fa-search{
     font-size: calc(1vw + 7px);
+    color: #fff;
     @media (max-width: 991px) {
       display: none;
     }
   }
   .fa-bars{
-    font-size: calc(1vw + 35px);
+    color: #fff;
+    font-size: calc(1vw + 25px);
     line-height: 2vw;
+    cursor: pointer;
     @media (max-width: 1440px) and (min-width: 1200px){
       line-height: 3vw;
     }
     @media (max-width: 1199px) and (min-width: 992px){
-      line-height: 4vw;
+    line-height: 4vw;
     }
     @media (max-width: 991px) and (min-width: 768px){
       line-height: 5vw;
