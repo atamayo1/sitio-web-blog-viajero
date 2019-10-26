@@ -5,6 +5,8 @@ section#section1{
     border-bottom: 0;
     border-left: 8px solid white;
     border-right: 8px solid white;
+    cursor: pointer;
+    transition: 1s all;
     p{
       position: absolute;
       left: 0;
@@ -24,6 +26,9 @@ section#section1{
       @media (max-width: 575px) {
         font-size: 14px;
       }
+    }
+    p:hover{
+      background-color: rgba(255, 57, 190,.3);
     }
   }
   .columna1{
