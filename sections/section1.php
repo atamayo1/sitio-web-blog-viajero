@@ -1,3 +1,4 @@
+<!-- Grid de categorías -->
 <section class="container-fluid py-2 py-md-5 bg-white grid" id="section1">
     <div class="container p-0">
         <div class="d-flex">

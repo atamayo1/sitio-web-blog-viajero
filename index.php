@@ -33,8 +33,6 @@
 
 <?php include 'sections/section1.php'; ?>
 <?php include 'sections/section2.php'; ?>
-<?php include 'sections/section3.php'; ?>
-<?php include 'sections/section4.php'; ?>
 
 <?php require 'footer.php'; ?>
 

@@ -1,6 +1,7 @@
 $(document).ready(function () {
     banner();
     menu();
+    section1();
 });
 
 function banner(){
@@ -39,5 +40,13 @@ function menu(){
     });
     $(".btnClose").click(function () {
         $("#menu").fadeOut( "slow" );
+    });
+}
+
+function section1() {
+    $(".grid figure").mouseover(function () {
+        $(this).css({"background-position":"right bottom"});
+    }).mouseout(function () {
+        $(this).css({"background-position":"left top"});
     });
 }
