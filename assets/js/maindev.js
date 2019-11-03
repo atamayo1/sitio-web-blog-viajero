@@ -2,6 +2,7 @@ $(document).ready(function () {
     banner();
     menu();
     section1();
+    section2();
 });
 
 function banner(){
@@ -48,5 +49,16 @@ function section1() {
         $(this).css({"background-position":"right bottom"});
     }).mouseout(function () {
         $(this).css({"background-position":"left top"});
+    });
+}
+
+function section2() {
+    $('.pagination').twbsPagination({
+        totalPages: 10,
+        visiblePages: 4,
+        first: "Primero",
+        last: "Último",
+        prev: '<i class="fas fa-angle-left"></i>',
+        next: '<i class="fas fa-angle-right"></i>'
     });
 }

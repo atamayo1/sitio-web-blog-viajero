@@ -26,6 +26,8 @@
     <script src="https://kit.fontawesome.com/fed9e4ca1e.js" crossorigin="anonymous"></script>
     <!-- JdSlider -->
     <script src="assets/js/plugins/jquery.jdSlider-latest.js"></script>
+    <!-- Pagination -->
+    <script src="assets/js/plugins/pagination.min.js"></script>
 </head>
 <body>
 
