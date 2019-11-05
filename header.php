@@ -41,11 +41,23 @@
             <div class="col-2 col-sm-1 col-md-2 col-lg-2 d-flex justify-content-end pt-2 mt-1">
                 <!--Buscador-->
                 <div class="d-none d-md-block pr-4 pr-lg-5 mt-1">
-                    <i class="fas fa-search load text-center"></i>
+                    <i class="fas fa-search load text-center" data-toggle="collapse" data-target="#search-collapse"></i>
                 </div>
                 <!--Menú-->
                 <div class="mt-0 mt-sm-1 mt-md-0 pr-0 pr-sm-2 pr-lg-3">
                     <i class="fas fa-bars load text-center"></i>
+                </div>
+            </div>
+            <!-- Entrada del buscador -->
+            <div id="search-collapse" class="collapse col-12">
+                <div class="input-group float-right w-50 pl-xl-5 pb-3">
+                    <input type="text" class="form-control" placeholder="Buscar">
+
+                    <div class="input-group-append">
+                        <span class="input-group-text text-dark">
+                            <i class="fas fa-search"></i>
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>
