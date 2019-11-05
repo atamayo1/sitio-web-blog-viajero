@@ -23,4 +23,12 @@ section#section2{
   .title-article{
     font-weight: 300;
   }
+  .page-item.active .page-link{
+    background: #ff39be;
+    color: white;
+    border: 1px solid #bbb;
+  }
+  .page-link{
+    color: #777;
+  }
 }

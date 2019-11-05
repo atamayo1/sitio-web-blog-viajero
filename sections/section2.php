@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <!-- Columna Izquierda -->
-            <div class="col-12 col-lg-9 p-0 pr-lg-5">
+            <div class="col-12 col-md-8 col-lg-9 p-0 pr-lg-5">
                 <!-- Artículo 1 -->
                <div class="row">
                    <div class="col-12 col-lg-5">
@@ -88,9 +88,12 @@
                     </div>
                 </div>
                 <hr style="border: 1px solid #79FF39;">
+                <div class="container d-none d-md-block">
+                    <ul class="pagination justify-content-center"></ul>
+                </div>
             </div>
             <!-- Columna derecha -->
-            <div class="d-none d-lg-block col-lg-3 p-5">
+            <div class="d-none d-md-block col-md-4 col-lg-3">
                 <!-- Sobre mi -->
                 <div class="sobreMi">
                     <h4>Sobre Mi</h4>
