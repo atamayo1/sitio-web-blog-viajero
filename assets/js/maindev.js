@@ -3,6 +3,7 @@ $(document).ready(function () {
     menu();
     section1();
     section2();
+    footer();
 });
 
 function banner(){
@@ -60,5 +61,13 @@ function section2() {
         last: "Último",
         prev: '<i class="fas fa-angle-left"></i>',
         next: '<i class="fas fa-angle-right"></i>'
+    });
+}
+
+function footer(){
+    $(".gridFooter figure").mouseover(function () {
+        $(this).css({"background-position":"right bottom"});
+    }).mouseout(function () {
+        $(this).css({"background-position":"left top"});
     });
 }
